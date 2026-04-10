@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Instagram } from "lucide-react";
 import logoImg from "@/assets/logo-raphael-mota.png";
 
 const navItems = [
