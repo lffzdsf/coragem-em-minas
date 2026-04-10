@@ -1,3 +1,5 @@
+import logoImg from "@/assets/logo-raphael-mota.png";
+
 const navLinks = [
   { label: "Início", href: "#hero" },
   { label: "Quem é", href: "#about" },
@@ -15,9 +17,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 mb-12">
           <div>
-            <h3 className="font-heading text-2xl font-bold text-on-dark mb-2">
-              Raphael <span className="text-gold">Mota</span>
-            </h3>
+            <img src={logoImg} alt="Raphael Mota" className="h-10 w-auto mb-2" />
             <p className="text-on-dark-muted text-sm max-w-xs">
               Coragem, experiência e compromisso com Minas Gerais.
             </p>
