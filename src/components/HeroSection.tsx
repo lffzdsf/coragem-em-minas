@@ -24,6 +24,11 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto section-padding pb-20 md:pb-0 pt-32 w-full">
         <div className="max-w-2xl">
+           {/* Pre-candidate label */}
+          <p className="text-on-dark-muted text-xs sm:text-sm tracking-widest uppercase mb-4 opacity-0 animate-fade-up font-medium">
+            Pré-Candidato a Deputado Federal
+          </p>
+
           {/* Gold accent line */}
           <div className="w-16 h-0.5 mb-8 animate-fade-up" style={{ background: 'linear-gradient(to right, hsl(var(--green-accent)), hsl(var(--gold)))' }} />
 
