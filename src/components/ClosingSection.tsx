@@ -14,15 +14,15 @@ export default function ClosingSection() {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-on-scroll" style={{ transitionDelay: "0.2s" }}>
-          <button className="bg-navy text-on-dark px-8 py-3.5 font-semibold text-sm tracking-wide hover:bg-navy-light transition-all duration-300 rounded-sm">
+          <a href="https://wa.me/38999826886" target="_blank" rel="noopener noreferrer" className="bg-navy text-on-dark px-8 py-3.5 font-semibold text-sm tracking-wide hover:bg-navy-light transition-all duration-300 rounded-sm text-center">
             CONHEÇA MAIS
-          </button>
-          <button className="border border-navy text-navy px-8 py-3.5 font-semibold text-sm tracking-wide hover:bg-navy hover:text-on-dark transition-all duration-300 rounded-sm">
+          </a>
+          <a href="https://wa.me/38999826886" target="_blank" rel="noopener noreferrer" className="border border-navy text-navy px-8 py-3.5 font-semibold text-sm tracking-wide hover:bg-navy hover:text-on-dark transition-all duration-300 rounded-sm text-center">
             ACOMPANHE AS PRÓXIMAS ETAPAS
-          </button>
-          <button className="bg-gold text-navy-deep px-8 py-3.5 font-semibold text-sm tracking-wide hover:brightness-110 transition-all duration-300 rounded-sm">
+          </a>
+          <a href="https://wa.me/38999826886" target="_blank" rel="noopener noreferrer" className="bg-gold text-navy-deep px-8 py-3.5 font-semibold text-sm tracking-wide hover:brightness-110 transition-all duration-300 rounded-sm text-center">
             FAÇA PARTE
-          </button>
+          </a>
         </div>
       </div>
     </section>
