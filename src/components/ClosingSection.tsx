@@ -17,7 +17,7 @@ export default function ClosingSection() {
           <a href="https://wa.me/38999826886" target="_blank" rel="noopener noreferrer" className="bg-navy text-on-dark px-8 py-3.5 font-semibold text-sm tracking-wide hover:bg-navy-light transition-all duration-300 rounded-sm text-center">
             CONHEÇA MAIS
           </a>
-          <a href="https://wa.me/38999826886" target="_blank" rel="noopener noreferrer" className="border border-navy text-navy px-8 py-3.5 font-semibold text-sm tracking-wide hover:bg-navy hover:text-on-dark transition-all duration-300 rounded-sm text-center">
+          <a href="https://wa.me/38999826886" target="_blank" rel="noopener noreferrer" className="border border-on-dark/30 text-on-dark px-8 py-3.5 font-semibold text-sm tracking-wide hover:border-green-accent hover:text-green-accent transition-all duration-300 rounded-sm text-center">
             ACOMPANHE AS PRÓXIMAS ETAPAS
           </a>
           <a href="https://wa.me/38999826886" target="_blank" rel="noopener noreferrer" className="bg-gold text-navy-deep px-8 py-3.5 font-semibold text-sm tracking-wide hover:brightness-110 transition-all duration-300 rounded-sm text-center">
