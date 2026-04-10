@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import logoImg from "@/assets/logo-raphael-mota.png";
 
 const navItems = [
   { label: "Início", href: "#hero" },
@@ -31,8 +32,8 @@ export default function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto section-padding flex items-center justify-between">
-        <button onClick={() => handleClick("#hero")} className="text-on-dark font-heading text-lg md:text-xl font-bold tracking-wide">
-          Raphael <span className="text-gold">Mota</span>
+        <button onClick={() => handleClick("#hero")}>
+          <img src={logoImg} alt="Raphael Mota" className="h-8 md:h-10 w-auto" />
         </button>
 
         {/* Desktop nav */}
