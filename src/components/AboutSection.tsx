@@ -16,7 +16,7 @@ export default function AboutSection() {
         <div className="grid md:grid-cols-2 gap-16 items-start">
           {/* Text */}
           <div className="animate-on-scroll">
-            <span className="text-gold text-sm font-semibold tracking-widest uppercase mb-4 block">Quem é</span>
+            <span className="text-green-accent text-sm font-semibold tracking-widest uppercase mb-4 block">Quem é</span>
             <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight mb-8">
               Raphael Castro{" "}
               <span className="text-blue-vibrant">Mota</span>
@@ -42,7 +42,7 @@ export default function AboutSection() {
                 className="group bg-card border border-border rounded-sm p-5 hover:border-gold/40 hover:shadow-lg hover:shadow-gold/5 transition-all duration-500 cursor-default"
                 style={{ transitionDelay: `${i * 0.05}s` }}
               >
-                <attr.icon className="w-5 h-5 text-gold mb-3 group-hover:scale-110 transition-transform duration-300" />
+                <attr.icon className="w-5 h-5 text-green-accent mb-3 group-hover:scale-110 transition-transform duration-300" />
                 <h3 className="font-heading font-bold text-foreground text-sm mb-1">{attr.label}</h3>
                 <p className="text-muted-foreground text-xs leading-relaxed">{attr.desc}</p>
               </div>

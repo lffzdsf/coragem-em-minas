@@ -36,7 +36,7 @@ export default function StorytellingSection() {
               className={`animate-on-scroll ${i % 2 === 0 ? "animate-on-scroll-left" : "animate-on-scroll-right"}`}
               style={{ transitionDelay: `${i * 0.1}s` }}
             >
-              <div className="border-l-2 border-gold/60 pl-6 md:pl-10">
+              <div className="border-l-2 pl-6 md:pl-10" style={{ borderColor: 'hsl(var(--green-accent) / 0.6)' }}>
                 <p className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-on-dark leading-snug">
                   {block.text}
                 </p>

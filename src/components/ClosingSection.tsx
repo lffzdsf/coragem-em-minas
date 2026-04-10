@@ -3,7 +3,7 @@ export default function ClosingSection() {
     <section id="closing" className="py-24 md:py-32 bg-background section-padding">
       <div className="max-w-3xl mx-auto text-center">
         <div className="animate-on-scroll">
-          <span className="text-gold text-sm font-semibold tracking-widest uppercase mb-4 block">Novo momento</span>
+          <span className="text-green-accent text-sm font-semibold tracking-widest uppercase mb-4 block">Novo momento</span>
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight mb-8">
             Uma liderança{" "}
             <span className="text-blue-vibrant">testada na prática.</span>

@@ -36,7 +36,7 @@ export default function Footer() {
           </nav>
         </div>
 
-        <div className="border-t border-gold/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="border-t pt-8 flex flex-col md:flex-row items-center justify-between gap-4" style={{ borderColor: 'hsl(var(--green-accent) / 0.2)' }}>
           <p className="text-on-dark-muted text-xs">
             © {new Date().getFullYear()} Raphael Castro Mota. Todos os direitos reservados.
           </p>
