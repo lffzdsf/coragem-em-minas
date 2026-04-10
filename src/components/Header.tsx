@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import logoImg from "@/assets/logo-raphael-mota.png";
 
 const navItems = [
   { label: "Início", href: "#hero" },
