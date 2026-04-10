@@ -5,12 +5,12 @@ export default function CrisisSection() {
     <section className="relative py-24 md:py-36 bg-navy-deep section-padding overflow-hidden">
       {/* Subtle gradient accent */}
       <div className="absolute inset-0 bg-gradient-to-br from-navy-deep via-navy to-navy-deep opacity-80" />
-      <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-gold/30 to-transparent" />
-      <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-gold/30 to-transparent" />
+      <div className="absolute top-0 left-0 w-full h-px" style={{ background: 'linear-gradient(to right, transparent, hsl(var(--green-accent) / 0.4), transparent)' }} />
+      <div className="absolute bottom-0 left-0 w-full h-px" style={{ background: 'linear-gradient(to right, transparent, hsl(var(--green-accent) / 0.4), transparent)' }} />
 
       <div className="relative max-w-5xl mx-auto">
         <div className="text-center mb-12 animate-on-scroll">
-          <span className="text-gold text-sm font-semibold tracking-widest uppercase mb-4 block">Nos momentos mais difíceis</span>
+          <span className="text-green-accent text-sm font-semibold tracking-widest uppercase mb-4 block">Nos momentos mais difíceis</span>
         </div>
 
         {/* Central quote */}
@@ -36,7 +36,7 @@ export default function CrisisSection() {
           {keywords.map((word, i) => (
             <span
               key={word}
-              className="border border-gold/30 text-gold px-5 py-2.5 text-sm font-semibold tracking-wide rounded-sm hover:bg-gold/10 transition-all duration-300 cursor-default"
+              className="border border-green-accent/40 text-green-accent px-5 py-2.5 text-sm font-semibold tracking-wide rounded-sm hover:bg-green-accent/10 transition-all duration-300 cursor-default"
               style={{ transitionDelay: `${i * 0.05}s` }}
             >
               {word}
