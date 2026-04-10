@@ -48,12 +48,15 @@ export default function Header() {
               {item.label}
             </button>
           ))}
-          <button
-            onClick={() => handleClick("#closing")}
-            className="bg-gold/10 border border-gold/30 text-gold px-5 py-2 text-sm font-medium rounded-sm hover:bg-gold/20 transition-all duration-300"
+          <a
+            href="https://instagram.com/raphamota"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gold/10 border border-gold/30 text-gold px-5 py-2 text-sm font-medium rounded-sm hover:bg-gold/20 transition-all duration-300 inline-flex items-center gap-2"
           >
+            <Instagram size={16} />
             Acompanhe
-          </button>
+          </a>
         </nav>
 
         {/* Mobile menu button */}
