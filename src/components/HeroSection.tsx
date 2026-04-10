@@ -47,7 +47,7 @@ export default function HeroSection() {
               onClick={() => scrollTo("#closing")}
               className="border border-on-dark/30 text-on-dark px-8 py-3.5 font-medium text-sm tracking-wide hover:border-gold hover:text-gold transition-all duration-300 rounded-sm"
             >
-              ACOMPANHE ESSE MOMENTO
+              QUERO SABER MAIS
             </button>
           </div>
         </div>
