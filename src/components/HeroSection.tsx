@@ -60,7 +60,7 @@ export default function HeroSection() {
 
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-0 animate-fade-in" style={{ animationDelay: "1.2s" }}>
-        <span className="text-on-dark-muted text-xs tracking-widest uppercase">Scroll</span>
+        
         <div className="w-px h-8 animate-scroll-bounce" style={{ background: 'linear-gradient(to bottom, hsl(var(--green-accent) / 0.6), transparent)' }} />
       </div>
     </section>
