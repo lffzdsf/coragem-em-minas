@@ -41,7 +41,7 @@ export default function HeroSection() {
               onClick={() => scrollTo("#timeline")}
               className="bg-gold text-navy-deep px-8 py-3.5 font-semibold text-sm tracking-wide hover:brightness-110 transition-all duration-300 rounded-sm"
             >
-              CONHEÇA A TRAJETÓRIA
+              TRAJETÓRIA NO CRO-MG
             </button>
             <button
               onClick={() => scrollTo("#closing")}
