@@ -71,6 +71,11 @@ export default {
           light: "hsl(var(--gold-light))",
         },
         "blue-vibrant": "hsl(var(--blue-vibrant))",
+        "green-accent": "hsl(var(--green-accent))",
+        petrol: {
+          DEFAULT: "hsl(var(--petrol))",
+          light: "hsl(var(--petrol-light))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
