@@ -1,12 +1,12 @@
-import { Shield, Target, Award, Handshake, Crown, Scale } from "lucide-react";
+import { Shield, Users, Heart, Handshake, MapPin, Stethoscope } from "lucide-react";
 
 const attributes = [
   { icon: Shield, label: "Coragem", desc: "Para enfrentar o que é preciso" },
-  { icon: Target, label: "Firmeza", desc: "Posição clara e consistente" },
-  { icon: Award, label: "Experiência", desc: "Construída na prática" },
-  { icon: Handshake, label: "Compromisso", desc: "Com a classe e com Minas" },
-  { icon: Crown, label: "Liderança", desc: "Reconhecida e testada" },
-  { icon: Scale, label: "Responsabilidade", desc: "Em cada decisão" },
+  { icon: Users, label: "Presença", desc: "Perto das pessoas e comunidades" },
+  { icon: Stethoscope, label: "Saúde como causa", desc: "Cuidado como cidadania" },
+  { icon: Handshake, label: "Compromisso", desc: "Com Minas e sua gente" },
+  { icon: MapPin, label: "Interior de Minas", desc: "Atuação em todo o estado" },
+  { icon: Heart, label: "Responsabilidade", desc: "Em cada decisão" },
 ];
 
 export default function AboutSection() {
@@ -23,13 +23,13 @@ export default function AboutSection() {
             </h2>
             <div className="space-y-5 text-muted-foreground leading-relaxed text-base md:text-lg">
               <p>
-                Raphael Castro Mota construiu sua trajetória com <strong className="text-foreground">coragem, firmeza e compromisso</strong> com a Odontologia mineira.
+                Raphael Castro Mota é cirurgião-dentista, nascido em Belo Horizonte, formado pela PUC Minas e reconhecido por uma trajetória construída com <strong className="text-foreground">presença, coragem e compromisso social</strong>.
               </p>
               <p>
-                Cirurgião-dentista, nascido em Belo Horizonte e formado pela PUC Minas, Raphael conhece de perto a realidade da profissão, os desafios da saúde e a importância de ter representantes que não se calam diante das injustiças.
+                Sua atuação pública nasceu do contato direto com realidades que muitos preferem não enxergar: comunidades vulneráveis, municípios do interior, regiões de difícil acesso, famílias sem assistência básica e profissionais que lutam diariamente por respeito e dignidade.
               </p>
               <p>
-                Sua história pública foi construída com trabalho, presença e disposição para <strong className="text-foreground">enfrentar problemas de frente</strong>.
+                Antes de ocupar cargos, Raphael já havia escolhido um lado: <strong className="text-foreground">estar perto das pessoas</strong>, ouvir suas necessidades e transformar sua profissão em um caminho de cuidado, cidadania e ação pública.
               </p>
             </div>
           </div>

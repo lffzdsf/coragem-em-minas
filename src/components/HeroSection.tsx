@@ -33,26 +33,29 @@ export default function HeroSection() {
           <div className="w-16 h-0.5 mb-8 animate-fade-up" style={{ background: 'linear-gradient(to right, hsl(var(--green-accent)), hsl(var(--gold)))' }} />
 
           <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-on-dark leading-tight mb-6 opacity-0 animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            Minas não precisa de mais promessas.{" "}
-            <span className="text-gradient-gold">Precisa de coragem.</span>
+            Minas precisa de coragem,{" "}
+            <span className="text-gradient-gold">presença e trabalho de verdade.</span>
           </h1>
 
-          <p className="text-on-dark-muted text-base md:text-lg lg:text-xl leading-relaxed mb-10 max-w-xl opacity-0 animate-fade-up" style={{ animationDelay: "0.4s" }}>
-            Uma trajetória construída com trabalho, firmeza e disposição para enfrentar o que muitos preferiram evitar.
+          <p className="text-on-dark-muted text-base md:text-lg lg:text-xl leading-relaxed mb-6 max-w-xl opacity-0 animate-fade-up" style={{ animationDelay: "0.4s" }}>
+            Raphael Mota construiu sua trajetória ouvindo pessoas, enfrentando desafios reais e transformando a saúde em instrumento de dignidade, cidadania e compromisso com quem mais precisa.
+          </p>
+          <p className="text-on-dark-muted/90 text-sm md:text-base leading-relaxed mb-10 max-w-xl opacity-0 animate-fade-up" style={{ animationDelay: "0.5s" }}>
+            Agora, essa caminhada se projeta para um novo momento: representar Minas Gerais com firmeza, responsabilidade e independência.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-up" style={{ animationDelay: "0.6s" }}>
             <button
-              onClick={() => scrollTo("#timeline")}
+              onClick={() => scrollTo("#about")}
               className="bg-gold text-navy-deep px-8 py-3.5 font-semibold text-sm tracking-wide hover:brightness-110 transition-all duration-300 rounded-sm"
             >
-              TRAJETÓRIA NO CRO-MG
+              CONHEÇA RAPHAEL
             </button>
             <button
               onClick={() => scrollTo("#closing")}
               className="border border-on-dark/30 text-on-dark px-8 py-3.5 font-medium text-sm tracking-wide hover:border-gold hover:text-gold transition-all duration-300 rounded-sm"
             >
-              QUERO SABER MAIS
+              ACOMPANHE ESSA CAMINHADA
             </button>
           </div>
         </div>

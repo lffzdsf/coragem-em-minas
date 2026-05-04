@@ -1,12 +1,12 @@
-import { Sword, Compass, ShieldCheck, Heart, Users, Megaphone } from "lucide-react";
+import { Sword, Users, Heart, Briefcase, ShieldCheck, Mountain } from "lucide-react";
 
 const pillars = [
-  { icon: Sword, title: "Coragem para enfrentar", desc: "Não recua diante de desafios. Enfrenta o que é preciso com determinação." },
-  { icon: Compass, title: "Experiência para liderar", desc: "Trajetória construída por dentro das instituições, com vivência real." },
-  { icon: ShieldCheck, title: "Responsabilidade para decidir", desc: "Cada decisão tomada com consciência e compromisso." },
-  { icon: Heart, title: "Compromisso com Minas", desc: "Uma causa que vai além da carreira: é sobre sua terra e sua gente." },
-  { icon: Users, title: "Presença na vida real", desc: "Liderança que se constrói no contato direto, não na distância." },
-  { icon: Megaphone, title: "Voz firme diante das injustiças", desc: "Não se cala quando é preciso defender o que é certo." },
+  { icon: Sword, title: "Coragem para enfrentar", desc: "Não se omite diante dos problemas e não escolhe o silêncio quando é preciso defender o que é certo." },
+  { icon: Users, title: "Presença na vida real", desc: "Liderança construída no contato com pessoas, municípios, comunidades e profissionais." },
+  { icon: Heart, title: "Compromisso social", desc: "A saúde como instrumento de dignidade, cidadania e cuidado com quem mais precisa." },
+  { icon: Briefcase, title: "Experiência pública", desc: "Atuação consolidada na gestão, na representação institucional e na defesa de causas coletivas." },
+  { icon: ShieldCheck, title: "Responsabilidade para decidir", desc: "Firmeza sem improviso. Posição clara, consciência pública e compromisso com as consequências." },
+  { icon: Mountain, title: "Minas em primeiro lugar", desc: "Uma trajetória voltada para defender o estado, seus municípios, sua gente e suas necessidades reais." },
 ];
 
 export default function PillarsSection() {
@@ -16,8 +16,8 @@ export default function PillarsSection() {
         <div className="text-center mb-16 animate-on-scroll">
           <span className="text-green-accent text-sm font-semibold tracking-widest uppercase mb-4 block">Valores</span>
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">
-            O que define essa{" "}
-            <span className="text-blue-vibrant">liderança</span>
+            O que orienta essa{" "}
+            <span className="text-blue-vibrant">caminhada</span>
           </h2>
           <div className="w-20 h-0.5 bg-green-accent mx-auto mt-6" />
         </div>

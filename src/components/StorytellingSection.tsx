@@ -1,27 +1,23 @@
 const blocks = [
   {
     type: "quote" as const,
-    text: "Raphael Mota não é apenas um nome. É uma história de coragem.",
+    text: "Uma liderança testada na prática.",
   },
   {
     type: "paragraph" as const,
-    text: "Uma trajetória construída com trabalho de verdade, enfrentando desafios reais e tomando decisões difíceis quando muitos escolheram se calar.",
+    text: "À frente do Conselho Regional de Odontologia de Minas Gerais, Raphael Mota ampliou sua atuação pública e consolidou uma gestão marcada por presença, descentralização, responsabilidade e defesa da classe.",
   },
   {
     type: "paragraph" as const,
-    text: "Nascido em Belo Horizonte, cirurgião-dentista formado pela PUC Minas, Raphael conhece de perto a realidade de quem luta todos os dias. Sabe o que é estar na linha de frente, sabe o que é ser cobrado, sabe o que é não poder recuar.",
+    text: "Sua liderança aproximou o Conselho dos municípios, dos profissionais, das instituições de ensino, dos voluntários e das demandas reais da sociedade. O resultado foi uma atuação mais próxima, mais humana e mais conectada com Minas Gerais.",
+  },
+  {
+    type: "paragraph" as const,
+    text: "No CRO-MG, Raphael enfrentou decisões difíceis, fortaleceu ações sociais, defendeu prerrogativas profissionais e mostrou capacidade de gestão em momentos de pressão.",
   },
   {
     type: "quote" as const,
-    text: "Enquanto muitos silenciaram, ele lutou.",
-  },
-  {
-    type: "paragraph" as const,
-    text: "Antes de chegar à presidência do Conselho Regional de Odontologia, percorreu cada etapa com responsabilidade. Aprendeu por dentro, viveu os desafios da autarquia e se preparou para liderar com consciência e firmeza.",
-  },
-  {
-    type: "quote" as const,
-    text: "Esse é o tipo de liderança que não se constrói em discurso. Se constrói na prática.",
+    text: "Essa experiência não resume sua trajetória. Mas comprova sua capacidade de liderar.",
   },
 ];
 
