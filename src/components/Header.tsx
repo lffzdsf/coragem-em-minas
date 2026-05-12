@@ -49,7 +49,7 @@ export default function Header() {
             </button>
           ))}
           <a
-            href="https://instagram.com/raphamota"
+            href="https://www.instagram.com/channel/AbYTSLzsSRFTuT2c/?igsh=YWo3dXdqZTh2MWl6"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gold/10 border border-gold/30 text-gold px-5 py-2 text-sm font-medium rounded-sm hover:bg-gold/20 transition-all duration-300 inline-flex items-center gap-2"
