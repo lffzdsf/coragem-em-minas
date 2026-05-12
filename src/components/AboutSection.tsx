@@ -23,7 +23,7 @@ export default function AboutSection() {
             </h2>
             <div className="space-y-5 text-muted-foreground leading-relaxed text-base md:text-lg">
               <p>
-                Raphael Castro Mota é cirurgião-dentista, nascido em Belo Horizonte, formado pela PUC Minas e reconhecido por uma trajetória construída com <strong className="text-foreground">presença, coragem e compromisso social</strong>.
+                Raphael Castro Mota é cirurgião-dentista, nascido em Januária, no norte de Minas, formado pela PUC Minas e reconhecido por uma trajetória construída com <strong className="text-foreground">presença, coragem e compromisso social</strong>.
               </p>
               <p>
                 Sua atuação pública nasceu do contato direto com realidades que muitos preferem não enxergar: comunidades vulneráveis, municípios do interior, regiões de difícil acesso, famílias sem assistência básica e profissionais que lutam diariamente por respeito e dignidade.

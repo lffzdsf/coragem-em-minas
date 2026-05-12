@@ -22,7 +22,7 @@ export default function ClosingSection() {
           <a href="https://instagram.com/raphamota" target="_blank" rel="noopener noreferrer" className="bg-navy text-on-dark px-8 py-3.5 font-semibold text-sm tracking-wide hover:bg-navy-light transition-all duration-300 rounded-sm text-center">
             ACOMPANHE RAPHAEL MOTA
           </a>
-          <a href="https://wa.me/38999826886" target="_blank" rel="noopener noreferrer" className="bg-gold text-navy-deep px-8 py-3.5 font-semibold text-sm tracking-wide hover:brightness-110 transition-all duration-300 rounded-sm text-center">
+          <a href="https://www.instagram.com/channel/AbYTSLzsSRFTuT2c/?igsh=YWo3dXdqZTh2MWl6" target="_blank" rel="noopener noreferrer" className="bg-gold text-navy-deep px-8 py-3.5 font-semibold text-sm tracking-wide hover:brightness-110 transition-all duration-300 rounded-sm text-center">
             FAÇA PARTE DESSA CAMINHADA
           </a>
         </div>
