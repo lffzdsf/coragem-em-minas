@@ -3,10 +3,12 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import RootsSection from "@/components/RootsSection";
+import BonitoDeMinasSection from "@/components/BonitoDeMinasSection";
 import SocialCommitmentSection from "@/components/SocialCommitmentSection";
 import StorytellingSection from "@/components/StorytellingSection";
 import CrisisSection from "@/components/CrisisSection";
 import WhyDeputySection from "@/components/WhyDeputySection";
+import ProposalsSection from "@/components/ProposalsSection";
 import PillarsSection from "@/components/PillarsSection";
 import TimelineSection from "@/components/TimelineSection";
 import ManifestoSection from "@/components/ManifestoSection";
@@ -22,10 +24,12 @@ const Index = () => {
       <HeroSection />
       <AboutSection />
       <RootsSection />
+      <BonitoDeMinasSection />
       <SocialCommitmentSection />
       <StorytellingSection />
       <CrisisSection />
       <WhyDeputySection />
+      <ProposalsSection />
       <PillarsSection />
       <TimelineSection />
       <ManifestoSection />
