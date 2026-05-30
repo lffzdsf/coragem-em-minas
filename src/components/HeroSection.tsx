@@ -37,11 +37,8 @@ export default function HeroSection() {
             <span className="text-gradient-gold">presença e trabalho de verdade.</span>
           </h1>
 
-          <p className="text-on-dark-muted text-base md:text-lg lg:text-xl leading-relaxed mb-6 max-w-xl opacity-0 animate-fade-up" style={{ animationDelay: "0.4s" }}>
-            Raphael Mota construiu sua trajetória ouvindo pessoas, enfrentando desafios reais e transformando a saúde em instrumento de dignidade, cidadania e compromisso com quem mais precisa.
-          </p>
-          <p className="text-on-dark-muted/90 text-sm md:text-base leading-relaxed mb-10 max-w-xl opacity-0 animate-fade-up" style={{ animationDelay: "0.5s" }}>
-            Agora, essa caminhada se projeta para um novo momento: representar Minas Gerais com firmeza, responsabilidade e independência.
+          <p className="text-on-dark-muted text-base md:text-lg lg:text-xl leading-relaxed mb-10 max-w-xl opacity-0 animate-fade-up" style={{ animationDelay: "0.4s" }}>
+            Raphael Mota representa uma liderança que saiu do discurso e foi para a ação. Uma trajetória construída com trabalho, enfrentamento à corrupção, valorização da Odontologia e compromisso com quem mais precisa ser ouvido.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-up" style={{ animationDelay: "0.6s" }}>
@@ -51,12 +48,14 @@ export default function HeroSection() {
             >
               CONHEÇA RAPHAEL
             </button>
-            <button
-              onClick={() => scrollTo("#closing")}
-              className="border border-on-dark/30 text-on-dark px-8 py-3.5 font-medium text-sm tracking-wide hover:border-gold hover:text-gold transition-all duration-300 rounded-sm"
+            <a
+              href="https://www.instagram.com/channel/AbYTSLzsSRFTuT2c/?igsh=YWo3dXdqZTh2MWl6"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border border-on-dark/30 text-on-dark px-8 py-3.5 font-medium text-sm tracking-wide hover:border-gold hover:text-gold transition-all duration-300 rounded-sm text-center"
             >
               ACOMPANHE ESSA CAMINHADA
-            </button>
+            </a>
           </div>
         </div>
       </div>
