@@ -2,16 +2,14 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
-import RootsSection from "@/components/RootsSection";
-import BonitoDeMinasSection from "@/components/BonitoDeMinasSection";
-import SocialCommitmentSection from "@/components/SocialCommitmentSection";
-import StorytellingSection from "@/components/StorytellingSection";
-import CrisisSection from "@/components/CrisisSection";
-import WhyDeputySection from "@/components/WhyDeputySection";
-import ProposalsSection from "@/components/ProposalsSection";
-import PillarsSection from "@/components/PillarsSection";
-import TimelineSection from "@/components/TimelineSection";
-import ManifestoSection from "@/components/ManifestoSection";
+import TrajectoryWorkSection from "@/components/TrajectoryWorkSection";
+import FightCorruptionSection from "@/components/FightCorruptionSection";
+import ElectionResultSection from "@/components/ElectionResultSection";
+import ProfessionalValueSection from "@/components/ProfessionalValueSection";
+import InsalubrityRightsSection from "@/components/InsalubrityRightsSection";
+import SchoolHealthSection from "@/components/SchoolHealthSection";
+import SynthesisSection from "@/components/SynthesisSection";
+import MinasRepresentationSection from "@/components/MinasRepresentationSection";
 import ClosingSection from "@/components/ClosingSection";
 import Footer from "@/components/Footer";
 
@@ -23,16 +21,14 @@ const Index = () => {
       <Header />
       <HeroSection />
       <AboutSection />
-      <RootsSection />
-      <BonitoDeMinasSection />
-      <SocialCommitmentSection />
-      <StorytellingSection />
-      <CrisisSection />
-      <WhyDeputySection />
-      <ProposalsSection />
-      <PillarsSection />
-      <TimelineSection />
-      <ManifestoSection />
+      <TrajectoryWorkSection />
+      <FightCorruptionSection />
+      <ElectionResultSection />
+      <ProfessionalValueSection />
+      <InsalubrityRightsSection />
+      <SchoolHealthSection />
+      <SynthesisSection />
+      <MinasRepresentationSection />
       <ClosingSection />
       <Footer />
     </div>
